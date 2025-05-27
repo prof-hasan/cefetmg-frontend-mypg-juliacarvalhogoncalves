@@ -1,5 +1,17 @@
+html {
+    font-size: 20px;
+}
+body {
+    background-color: lightsteelblue;
+}
+h1 {
+    color: navy;
+    padding-left: 10px;
+}
 table {
     border-collapse: collapse;
+    display: inline;
+    padding-left: 20px;
 }
 td {
     border: 2px solid black;
@@ -14,21 +26,28 @@ th {
 }
 caption {
     caption-side:bottom;
-    font-size: x-small;
+    font-size: medium;
     background-color: rgba(255, 255, 255, 0.705); /* ou #fff3: branco 20% opaco */;
 }
-html {
-    font-size: 12px;
+p {
+    padding-left: 20px;
 }
 img {
-    display: block;
-    width: 170px;
-    margin-bottom: 10px;
     margin-top: 10px;
+    float: left;
 }
-body {
-    background-color: lightsteelblue;
+#maneskin {
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border-radius: 30%;
+    border: solid rgb(126, 65, 24) 4px;
 }
-h1 {
-    color: navy;
+#galo {
+    width: 210px;
+    display: inline;
+    margin-top: 40px;
+    border-radius: 40%;
+    border: solid gray 3px;
 }
